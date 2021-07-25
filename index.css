@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+body {
+    background-image:url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textColor{
+    color: #EDF5E1;
+}
+
+.landingPage {
+    margin-top: 15%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.Details {
+    margin-top: 5%;
+    width: 70%;
+    font-family: Cairo;
+    font-size: 22px;
+    margin-bottom: 30%;
+    color: #EDF5E1;
+}
+
+.TitleSection {
+    font-size: 45px; 
+    color: red; 
+    font-family: Lobster;
+}
+
+.carouselSize {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50%;
+    margin-bottom: 40%;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+}
+
+.card {
+    border: 0.1em black solid;
+    border-radius: 0.5em;
+}
